@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03bb249edad1dd9db72e101cc5109ad7",
+    "content-hash": "984805f692fc559100d195f1c0294948",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -5084,7 +5084,7 @@
         },
         {
             "name": "symfony/security-csrf",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-csrf.git",

@@ -1,0 +1,35 @@
+{% extends 'admin/base.html.twig' %}
+{% block body %}
+	<table class="table">
+		<thead>
+			<tr class="active">
+				<th>Name</th>
+				<th>Position</th>
+				<th>Jobs</th>
+				<th>Affiliates</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for category in categories %}
+				<tr>
+					<td>{{category.name}}</td>
+					<td>{{category.getSlug()}}</td>
+					<td>{{category.getJobs()|length}}</td>
+					<td>{{category.getAffiliates()|length}}</td>
+					<td>
+						<ul class="list-inline">
+							<li>
+								<a href="{{ path('category.edit', { 'id': category.id }) }}" class="btn btn-default">Edit</a>
+							</li>
+							<li>
+								<a href="#" class="btn btn-danger">Delete</a>
+							</li>
+						</ul>
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<a href="{{ path('category.create')}}" class="btn btn-success">Create new</a>
+{% endblock %}

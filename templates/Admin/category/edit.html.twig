@@ -1,0 +1,19 @@
+{% extends 'admin/base.html.twig' %}
+{% block body %}
+	<h1>Edit category "{{ category.name }}"</h1>
+
+	{{ form_start(form) }}
+	{{ form_widget(form) }}
+
+	<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-default">Save</button>
+		</div>
+	</div>
+	{{ form_end(form) }}
+
+	<a href="{{ path('category.list') }}" class="btn btn-default">
+		<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+		back to list
+	</a>
+{% endblock %}

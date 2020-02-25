@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "984805f692fc559100d195f1c0294948",
+    "content-hash": "4a5811fcda825d18ba19263ff97ad4b9",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -4928,16 +4928,16 @@
         },
         {
             "name": "symfony/security-bundle",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-bundle.git",
-                "reference": "99ac9cd1735fbfec88e5e7cf55ed7fa046cb456e"
+                "reference": "7829cc34b8231cb8d10621cdf27d04bfdc600334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/99ac9cd1735fbfec88e5e7cf55ed7fa046cb456e",
-                "reference": "99ac9cd1735fbfec88e5e7cf55ed7fa046cb456e",
+                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/7829cc34b8231cb8d10621cdf27d04bfdc600334",
+                "reference": "7829cc34b8231cb8d10621cdf27d04bfdc600334",
                 "shasum": ""
             },
             "require": {
@@ -5007,7 +5007,7 @@
             ],
             "description": "Symfony SecurityBundle",
             "homepage": "https://symfony.com",
-            "time": "2020-01-21T11:47:55+00:00"
+            "time": "2020-01-27T10:02:23+00:00"
         },
         {
             "name": "symfony/security-core",

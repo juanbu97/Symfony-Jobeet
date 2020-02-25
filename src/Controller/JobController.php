@@ -56,7 +56,7 @@ class JobController extends AbstractController
             $em->persist($job); //Doctrine administra el objeto
             $em->flush(); //Se lanzan las sentencias sql de los objetos administrados por doctrine
 
-            return $this->redirectToRoute('job.list');
+            return $this->redirectToRoute('job.preview' ,['token' => $job->getToken()]);
         }
         return $this->render('job/create.html.twig', [
             'form' => $form->createView()

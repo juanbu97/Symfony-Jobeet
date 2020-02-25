@@ -13,19 +13,7 @@ use Knp\Component\Pager\PaginatorInterface;
 
 class CategoryController extends AbstractController
 {
-    /**
-     * Finds and displays a category entity
-     * 
-     * @Route("/category/{slug}", name="category.show", methods="GET")
-     * 
-     * @param Category $category
-     */
-  /*   public function show(Category $category): Response
-    {
-        return $this->render('category/show.html.twig', [
-            'category' => $category,
-        ]);
-    } */
+
 
     /**
      * 
